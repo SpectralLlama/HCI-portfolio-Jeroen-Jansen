@@ -139,7 +139,7 @@ blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
 
 #header nav{display:block; float:right; margin:20px 0 0 0; padding:20px 0;}
 #header nav ul{}
-#header nav li{display:inline; padding-bottom: 15px; margin-right:25px; text-transform:uppercase;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
 #header nav li a{padding:5px 8px; color:#FFFFFF; background-color:#666666;}
 #header nav li a:hover{color:#FF9900; background-color:#FFFFFF;}
