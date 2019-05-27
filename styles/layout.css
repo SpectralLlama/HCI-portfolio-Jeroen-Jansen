@@ -25,6 +25,10 @@ html[xmlns] .clear {
     display:block;
 }
 
+.imgscale {
+    max-width: 290px;
+}
+
 * html .clear {
     height:1%;
 }
