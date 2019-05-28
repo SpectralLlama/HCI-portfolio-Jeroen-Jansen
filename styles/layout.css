@@ -130,19 +130,16 @@ blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
 
 /*----------------------------------------------Header-------------------------------------*/
 
-#header{}
-
-#header #hgroup{padding:20px 0 0 0; float:left;}
+#header #hgroup{padding:20px 0 0 0; float:left; width: 25%; box-sizing: border-box; }
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
 #header #hgroup h1{font-size:36px;}
 #header #hgroup h2{font-size:13px;}
 
-#header nav{display:block; float:right; margin:20px 0 0 0; padding:20px 0;}
-#header nav ul{}
-#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav{display:block; float:left; width: 75%; box-sizing: border-box; margin:25px 0 0 0;}
+#header nav li{display:block; float: right; margin: 0 5px 5px 0; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
-#header nav li a{padding:5px 8px; color:#FFFFFF; background-color:#666666;}
-#header nav li a:hover{color:#FF9900; background-color:#FFFFFF;}
+#header nav li a{display: block; padding:7px 10px; color:#FFFFFF; background-color:#666666;}
+#header nav li a:hover{color:#FF9900; background-color:#eee;}
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
@@ -160,8 +157,8 @@ blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
 /* ------services-----*/
 
 #container #services{margin-bottom:50px; line-height:1.6em;}
-#container #services article{}
 #container #services article h2{font-size:14px; margin-bottom:15px;}
+#container #services article h3{margin:15px 0 4px;}
 #container #services article p{margin:0; padding:0;}
 #container #services article img{float:left; width:180px; height:180px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
 #container #services article footer{margin:10px 0 0 0;}
