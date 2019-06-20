@@ -29,6 +29,10 @@ html[xmlns] .clear {
   max-width: 290px;
 }
 
+.imgscale2 {
+  max-width: 580px;
+}
+
 * html .clear {
   height: 1%;
 }
